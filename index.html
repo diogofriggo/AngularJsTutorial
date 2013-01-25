@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html ng-app>
     <head>
-        <title>Angular JS Tutorial</title>
         <meta charset="utf-8">
         <title>Google Phone Gallery</title>
         <link rel="stylesheet" href="assets/stylesheets/app.css">
         <link rel="stylesheet" href="assets/stylesheets/bootstrap.css">
         <script src="assets/javascripts/angular.js"></script>
+        <script src="assets/javascripts/controllers/phoneListController.js"></script>
     </head>
-    <body>
+    <body ng-controller="PhoneListController">
+        <!--
         <p>Nothing here {{'yet' + '!'}}</p>
         <p>1 + 2 = {{1 + 2}}</p>
 
@@ -25,5 +26,22 @@
             </li>
         </ul>
         <p>Total number of phones: 2</p>
+        -->
+        <ul>
+            <li ng-repeat="phone in phones">
+                {{phone.name}}
+                <p>{{phone.snippet}}</p>
+            </li>
+        </ul>
+        <p>Total number of phones: {{phones.length}}</p>
+        <p>{{hello}}</p>
+        <table>
+            <tr>
+                <th>row number</th>
+            </tr>
+            <tr ng-repeat="i in [0, 1, 2, 3, 4, 5, 6, 7]">
+                <td>{{i + 1}}</td>
+            </tr>
+        </table>
     </body>
 </html>

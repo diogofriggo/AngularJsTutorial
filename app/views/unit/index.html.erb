@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app ng-controller="PhoneListController">
+  <head>
+    <meta charset="utf-8">
+    <title>End2end Test Runner</title>
+    %= image_tag 'jasmine_favicon.png' %>
+    <%= stylesheet_link_tag 'jasmine' %>
+  </head>
+  <body>
+    <%= javascript_include_tag 'libraries/jasmine.js' %>
+    <%= javascript_include_tag 'libraries/jasmine-html.js' %>
+    <%= javascript_include_tag 'controllers/phoneListController.js' %>
+    <%= javascript_include_tag 'testing/unit-tests/tests' %>
+
+    <script type="text/javascript">
+      (function() {
+        var jasmineEnv = jasmine.getEnv();
+        jasmineEnv.updateInterval = 1000;
+        var trivialReporter = new jasmine.TrivialReporter();
+        jasmineEnv.addReporter(trivialReporter);
+        jasmineEnv.specFilter = function(spec) {
+          return trivialReporter.specFilter(spec);
+        };
+        var currentWindowOnload = window.onload;
+        window.onload = function() {
+          if (currentWindowOnload) {
+            currentWindowOnload();
+          }
+          execJasmine();
+        };
+        function execJasmine() {
+          jasmineEnv.execute();
+        }
+      })();
+    </script>
+  </body>
+</html>

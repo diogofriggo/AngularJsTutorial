@@ -6,8 +6,8 @@ describe('Phone list view', function() {
 
   describe('should filter the phone list as user types into the search box', function() {
 
-    it('displays three items in the list', function(){
-      expect(repeater('ul.phones li').count()).toBe(3);
+    it('displays twenty items in the list', function(){
+      expect(repeater('ul.phones li').count()).toBe(20);
     });
 
     it('if I filter by "nexus" it should display 1 item', function(){
@@ -18,7 +18,7 @@ describe('Phone list view', function() {
     it('if I filter by "motorola" it should display 2 items', function(){
       input('query').enter('motorola');
       //pause();
-      expect(repeater('ul.phones li').count()).toBe(2);
+      expect(repeater('ul.phones li').count()).toBe(8);
     });
 
   });
@@ -31,16 +31,22 @@ describe('Phone list view', function() {
   });
 
   it('should be possible to control phone order via the drop down select box', function() {
-      //let's narrow the dataset to make the test assertions shorter
-      input('query').enter('tablet');
+    //let's narrow the dataset to make the test assertions shorter
+    input('query').enter('tablet');
 
-      expect(repeater('.phones li', 'Phone List').column('phone.name')).
-        toEqual(["Motorola XOOM\u2122 with Wi-Fi", "MOTOROLA XOOM\u2122"]);
+    expect(repeater('.phones li', 'Phone List').column('phone.name')).
+      toEqual(["Motorola XOOM\u2122 with Wi-Fi", "MOTOROLA XOOM\u2122"]);
 
-      select('orderProp').option('Alphabetical');
+    select('orderProp').option('Alphabetical');
 
-      expect(repeater('.phones li', 'Phone List').column('phone.name')).
-        toEqual(["MOTOROLA XOOM\u2122", "Motorola XOOM\u2122 with Wi-Fi"]);
+    expect(repeater('.phones li', 'Phone List').column('phone.name')).
+      toEqual(["MOTOROLA XOOM\u2122", "Motorola XOOM\u2122 with Wi-Fi"]);
+  });
+
+  it('should render phone specific links', function() {
+    input('query').enter('nexus');
+    element('.phones li a').click();
+    expect(browser().location().url()).toBe('/phones/nexus-s');
   });
 
 });

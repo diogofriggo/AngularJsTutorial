@@ -5857,3 +5857,1899 @@ Served asset /app.css - 304 Not Modified (0ms)
 
 Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-25 16:42:27 -0200
 Served asset /controllers/phoneListController.js - 200 OK (6ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-01-28 16:37:57 -0200
+Connecting to database specified by database.yml
+Served asset /rails.png - 404 Not Found (12ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/rails.png"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (67.1ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:38:01 -0200
+Processing by ApplicationController#index as HTML
+Compiled app.css  (1ms)  (pid 5456)
+  Rendered application/index.html.erb within layouts/application (996.8ms)
+Completed 200 OK in 1022ms (Views: 1021.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:38:03 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:38:03 -0200
+Served asset /libraries/angular.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:38:03 -0200
+Served asset /app.css - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:38:03 -0200
+Served asset /bootstrap.css - 304 Not Modified (18ms)
+
+
+Started GET "/application/img/phones/motorola-xoom.0.jpg" for 127.0.0.1 at 2013-01-28 16:38:03 -0200
+
+ActionController::RoutingError (No route matches [GET] "/application/img/phones/motorola-xoom.0.jpg"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/application/img/phones/motorola-xoom-with-wi-fi.0.jpg" for 127.0.0.1 at 2013-01-28 16:38:03 -0200
+
+ActionController::RoutingError (No route matches [GET] "/application/img/phones/motorola-xoom-with-wi-fi.0.jpg"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/application/img/phones/motorola-atrix-4g.0.jpg" for 127.0.0.1 at 2013-01-28 16:38:03 -0200
+
+ActionController::RoutingError (No route matches [GET] "/application/img/phones/motorola-atrix-4g.0.jpg"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/application/img/phones/dell-streak-7.0.jpg" for 127.0.0.1 at 2013-01-28 16:38:03 -0200
+
+ActionController::RoutingError (No route matches [GET] "/application/img/phones/dell-streak-7.0.jpg"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/application/img/phones/samsung-gem.0.jpg" for 127.0.0.1 at 2013-01-28 16:38:03 -0200
+
+ActionController::RoutingError (No route matches [GET] "/application/img/phones/samsung-gem.0.jpg"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:39:19 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:39:19 -0200
+Served asset /app.css - 200 OK (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:39:19 -0200
+Served asset /libraries/angular.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:39:19 -0200
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:39:19 -0200
+Served asset /controllers/phoneListController.js - 200 OK (0ms)
+
+
+Started GET "/img/phones/app/assets/images/phones/motorola-xoom-with-wi-fi.0.jpg" for 127.0.0.1 at 2013-01-28 16:39:20 -0200
+
+ActionController::RoutingError (No route matches [GET] "/img/phones/app/assets/images/phones/motorola-xoom-with-wi-fi.0.jpg"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/img/phones/app/assets/images/phones/motorola-xoom.0.jpg" for 127.0.0.1 at 2013-01-28 16:39:20 -0200
+
+ActionController::RoutingError (No route matches [GET] "/img/phones/app/assets/images/phones/motorola-xoom.0.jpg"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/img/phones/app/assets/images/phones/motorola-atrix-4g.0.jpg" for 127.0.0.1 at 2013-01-28 16:39:20 -0200
+
+ActionController::RoutingError (No route matches [GET] "/img/phones/app/assets/images/phones/motorola-atrix-4g.0.jpg"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/img/phones/app/assets/images/phones/dell-streak-7.0.jpg" for 127.0.0.1 at 2013-01-28 16:39:20 -0200
+
+ActionController::RoutingError (No route matches [GET] "/img/phones/app/assets/images/phones/dell-streak-7.0.jpg"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/img/phones/app/assets/images/phones/samsung-gem.0.jpg" for 127.0.0.1 at 2013-01-28 16:39:20 -0200
+
+ActionController::RoutingError (No route matches [GET] "/img/phones/app/assets/images/phones/samsung-gem.0.jpg"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:40:11 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:40:12 -0200
+Served asset /app.css - 200 OK (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:40:12 -0200
+Served asset /libraries/angular.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:40:12 -0200
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:40:12 -0200
+Served asset /controllers/phoneListController.js - 200 OK (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:42:50 -0200
+Processing by ApplicationController#index as HTML
+Compiled app.css  (0ms)  (pid 5456)
+  Rendered application/index.html.erb within layouts/application (172.1ms)
+Completed 200 OK in 198ms (Views: 198.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:42:50 -0200
+Served asset /app.css - 200 OK (13ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:42:50 -0200
+Served asset /libraries/angular.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:42:50 -0200
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:42:50 -0200
+Served asset /controllers/phoneListController.js - 200 OK (1ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:43:24 -0200
+Processing by ApplicationController#index as HTML
+Compiled app.css  (0ms)  (pid 5456)
+  Rendered application/index.html.erb within layouts/application (168.0ms)
+Completed 200 OK in 195ms (Views: 195.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:43:24 -0200
+Served asset /app.css - 200 OK (11ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:43:24 -0200
+Served asset /libraries/angular.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:43:24 -0200
+Served asset /bootstrap.css - 200 OK (1ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:43:24 -0200
+Served asset /controllers/phoneListController.js - 200 OK (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:43:48 -0200
+Processing by ApplicationController#index as HTML
+Compiled controllers/phoneListController.js  (1ms)  (pid 5456)
+  Rendered application/index.html.erb within layouts/application (147.0ms)
+Completed 200 OK in 173ms (Views: 173.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:43:49 -0200
+Served asset /app.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:43:49 -0200
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:43:49 -0200
+Served asset /libraries/angular.js - 200 OK (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:43:49 -0200
+Served asset /controllers/phoneListController.js - 200 OK (4ms)
+
+
+Started GET "/integration/index" for 127.0.0.1 at 2013-01-28 16:46:22 -0200
+Processing by IntegrationController#index as HTML
+Compiled testing/integration-tests/tests.js  (1ms)  (pid 5456)
+  Rendered integration/index.html.erb within layouts/application (150.2ms)
+Completed 200 OK in 185ms (Views: 185.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/testing/integration-tests/tests.js?body=1" for 127.0.0.1 at 2013-01-28 16:46:22 -0200
+Served asset /testing/integration-tests/tests.js - 200 OK (4ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:46:22 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:46:22 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:46:22 -0200
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:46:22 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:46:23 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (1ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:46:23 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:46:23 -0200
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:46:23 -0200
+Served asset /app.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:46:23 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:46:23 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:46:24 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:46:24 -0200
+Served asset /app.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:46:24 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:46:24 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:46:24 -0200
+Served asset /libraries/angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:46:24 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:46:25 -0200
+Served asset /app.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:46:25 -0200
+Served asset /libraries/angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:46:25 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:46:25 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:46:25 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:46:25 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:46:25 -0200
+Served asset /libraries/angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:46:25 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:46:25 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:46:26 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:46:26 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:46:26 -0200
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:46:26 -0200
+Served asset /libraries/angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:46:26 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:47:03 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:47:03 -0200
+Served asset /app.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:47:03 -0200
+Served asset /libraries/angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:47:03 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:47:04 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/integration/index" for 127.0.0.1 at 2013-01-28 16:47:28 -0200
+Processing by IntegrationController#index as HTML
+Compiled testing/integration-tests/tests.js  (1ms)  (pid 5456)
+  Rendered integration/index.html.erb within layouts/application (133.1ms)
+Completed 200 OK in 165ms (Views: 165.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/testing/integration-tests/tests.js?body=1" for 127.0.0.1 at 2013-01-28 16:47:28 -0200
+Served asset /testing/integration-tests/tests.js - 200 OK (6ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:47:29 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:47:29 -0200
+Served asset /app.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:47:29 -0200
+Served asset /libraries/angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:47:29 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:47:29 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (1ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:47:29 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:47:29 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:47:29 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:47:29 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:47:29 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:47:30 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:47:30 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:47:30 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:47:30 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:47:30 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:47:31 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:47:31 -0200
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:47:31 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:47:31 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:47:31 -0200
+Served asset /libraries/angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:47:31 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:47:32 -0200
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:47:32 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:47:32 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:47:32 -0200
+Served asset /app.css - 304 Not Modified (1ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:47:32 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 29ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:47:32 -0200
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:47:32 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:47:32 -0200
+Served asset /libraries/angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:47:32 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:48:42 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 29ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:48:43 -0200
+Served asset /app.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:48:43 -0200
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:48:43 -0200
+Served asset /controllers/phoneListController.js - 200 OK (1ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:48:43 -0200
+Served asset /libraries/angular.js - 200 OK (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:48:58 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 71ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:48:59 -0200
+Served asset /app.css - 200 OK (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:48:59 -0200
+Served asset /libraries/angular.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:48:59 -0200
+Served asset /bootstrap.css - 200 OK (1ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:48:59 -0200
+Served asset /controllers/phoneListController.js - 200 OK (1ms)
+
+
+Started GET "/integration/index" for 127.0.0.1 at 2013-01-28 16:49:04 -0200
+Processing by IntegrationController#index as HTML
+  Rendered integration/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 34ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/testing/integration-tests/tests.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:04 -0200
+Served asset /testing/integration-tests/tests.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:49:04 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:04 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:04 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:04 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:04 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:49:05 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:05 -0200
+Served asset /libraries/angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:05 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:05 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:05 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:49:06 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:06 -0200
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:06 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:06 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:06 -0200
+Served asset /app.css - 304 Not Modified (1ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:49:06 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 25ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:07 -0200
+Served asset /app.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:07 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:07 -0200
+Served asset /libraries/angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:07 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (1ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:49:07 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:07 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:08 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:08 -0200
+Served asset /app.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:08 -0200
+Served asset /libraries/angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:49:08 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:08 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:08 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:08 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:08 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/integration/index" for 127.0.0.1 at 2013-01-28 16:49:21 -0200
+Processing by IntegrationController#index as HTML
+  Rendered integration/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 33ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/testing/integration-tests/tests.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:22 -0200
+Served asset /testing/integration-tests/tests.js - 304 Not Modified (1ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:49:22 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 31ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:22 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:22 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:22 -0200
+Served asset /libraries/angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:22 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:49:23 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:23 -0200
+Served asset /app.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:23 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:23 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:23 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:49:23 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:23 -0200
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:23 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:24 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:24 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:49:24 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:24 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:24 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:24 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:24 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (1ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:49:25 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:25 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:25 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:25 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:25 -0200
+Served asset /libraries/angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:49:26 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:26 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:49:26 -0200
+Served asset /app.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:26 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:49:26 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (1ms)
+
+
+Started GET "/integration/index" for 127.0.0.1 at 2013-01-28 16:50:08 -0200
+Processing by IntegrationController#index as HTML
+  Rendered integration/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 35ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/testing/integration-tests/tests.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:08 -0200
+Served asset /testing/integration-tests/tests.js - 200 OK (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:50:09 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:09 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:09 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:09 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:09 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:50:09 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:10 -0200
+Served asset /app.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:10 -0200
+Served asset /libraries/angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:10 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:10 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:50:10 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:10 -0200
+Served asset /libraries/angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:10 -0200
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:10 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:10 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:50:11 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:11 -0200
+Served asset /app.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:11 -0200
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:11 -0200
+Served asset /libraries/angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:11 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:50:12 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:12 -0200
+Served asset /app.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:12 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:12 -0200
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:12 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:50:12 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 30ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:13 -0200
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:13 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:13 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:13 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/integration/index" for 127.0.0.1 at 2013-01-28 16:50:54 -0200
+Processing by IntegrationController#index as HTML
+  Rendered integration/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 38ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/testing/integration-tests/tests.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:54 -0200
+Served asset /testing/integration-tests/tests.js - 200 OK (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:50:54 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:55 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:55 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:55 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:55 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (1ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:50:55 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:55 -0200
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:55 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:55 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:55 -0200
+Served asset /libraries/angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:50:56 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:56 -0200
+Served asset /app.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:56 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:56 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:56 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:50:57 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:57 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:57 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:57 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:57 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:50:57 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:58 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:58 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:58 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:58 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (1ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:50:58 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:59 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:59 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:50:59 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:50:59 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/integration/index" for 127.0.0.1 at 2013-01-28 16:51:28 -0200
+Processing by IntegrationController#index as HTML
+  Rendered integration/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 35ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/testing/integration-tests/tests.js?body=1" for 127.0.0.1 at 2013-01-28 16:51:28 -0200
+Served asset /testing/integration-tests/tests.js - 200 OK (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:51:29 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:51:29 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:51:29 -0200
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:51:29 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:51:29 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:51:29 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 25ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:51:30 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:51:30 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:51:30 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:51:30 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:51:30 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 56ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:51:31 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:51:31 -0200
+Served asset /libraries/angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:51:31 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:51:31 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:51:31 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:51:32 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:51:32 -0200
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:51:32 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:51:32 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:51:32 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 45ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:51:33 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:51:33 -0200
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:51:33 -0200
+Served asset /libraries/angular.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:51:33 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:51:33 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 45ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:51:34 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:51:34 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:51:34 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:51:34 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (1ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:53:25 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:53:25 -0200
+Served asset /app.css - 200 OK (1ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:53:25 -0200
+Served asset /libraries/angular.js - 200 OK (0ms)
+
+
+Started GET "/application/%7B%7Bphone.imageUrl%7D%7D" for 127.0.0.1 at 2013-01-28 16:53:25 -0200
+
+ActionController::RoutingError (No route matches [GET] "/application/%7B%7Bphone.imageUrl%7D%7D"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:53:26 -0200
+Served asset /bootstrap.css - 200 OK (1ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:53:26 -0200
+Served asset /controllers/phoneListController.js - 200 OK (0ms)
+
+
+Started GET "/application/%7B%7Bphone.imageUrl%7D%7D" for 127.0.0.1 at 2013-01-28 16:53:26 -0200
+
+ActionController::RoutingError (No route matches [GET] "/application/%7B%7Bphone.imageUrl%7D%7D"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:53:37 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:53:37 -0200
+Served asset /app.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:53:37 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/application/%7B%7Bphone.imageUrl%7D%7D" for 127.0.0.1 at 2013-01-28 16:53:37 -0200
+
+ActionController::RoutingError (No route matches [GET] "/application/%7B%7Bphone.imageUrl%7D%7D"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:53:37 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:53:37 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/%7B%7Bphone.imageUrl%7D%7D" for 127.0.0.1 at 2013-01-28 16:53:38 -0200
+
+ActionController::RoutingError (No route matches [GET] "/application/%7B%7Bphone.imageUrl%7D%7D"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 16:53:45 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:53:46 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 16:53:46 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 16:53:46 -0200
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:53:46 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (1ms)
+
+
+Started GET "/unit/index" for 127.0.0.1 at 2013-01-28 16:56:32 -0200
+Processing by UnitController#index as HTML
+  Rendered unit/index.html.erb within layouts/application (61.0ms)
+Completed 200 OK in 96ms (Views: 96.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jasmine.css?body=1" for 127.0.0.1 at 2013-01-28 16:56:32 -0200
+Served asset /jasmine.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/libraries/angular-mocks.js?body=1" for 127.0.0.1 at 2013-01-28 16:56:33 -0200
+Served asset /libraries/angular-mocks.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/libraries/jasmine-html.js?body=1" for 127.0.0.1 at 2013-01-28 16:56:33 -0200
+Served asset /libraries/jasmine-html.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/libraries/jasmine.js?body=1" for 127.0.0.1 at 2013-01-28 16:56:33 -0200
+Served asset /libraries/jasmine.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 16:56:33 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 16:56:33 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/testing/unit-tests/tests.js?body=1" for 127.0.0.1 at 2013-01-28 16:56:33 -0200
+Served asset /testing/unit-tests/tests.js - 304 Not Modified (4ms)
+
+
+Started GET "/unit/index" for 127.0.0.1 at 2013-01-28 17:09:27 -0200
+Processing by UnitController#index as HTML
+  Rendered unit/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 45ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jasmine.css?body=1" for 127.0.0.1 at 2013-01-28 17:09:27 -0200
+Served asset /jasmine.css - 200 OK (1ms)
+
+
+Started GET "/assets/libraries/jasmine.js?body=1" for 127.0.0.1 at 2013-01-28 17:09:27 -0200
+Served asset /libraries/jasmine.js - 200 OK (0ms)
+
+
+Started GET "/assets/libraries/jasmine-html.js?body=1" for 127.0.0.1 at 2013-01-28 17:09:27 -0200
+Served asset /libraries/jasmine-html.js - 200 OK (0ms)
+
+
+Started GET "/assets/libraries/angular-mocks.js?body=1" for 127.0.0.1 at 2013-01-28 17:09:27 -0200
+Served asset /libraries/angular-mocks.js - 200 OK (0ms)
+
+
+Started GET "/assets/testing/unit-tests/tests.js?body=1" for 127.0.0.1 at 2013-01-28 17:09:27 -0200
+Served asset /testing/unit-tests/tests.js - 200 OK (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 17:09:27 -0200
+Served asset /libraries/angular.js - 200 OK (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 17:09:27 -0200
+Served asset /controllers/phoneListController.js - 200 OK (0ms)
+
+
+Started GET "/integration/index" for 127.0.0.1 at 2013-01-28 17:09:29 -0200
+Processing by IntegrationController#index as HTML
+  Rendered integration/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 35ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/testing/integration-tests/tests.js?body=1" for 127.0.0.1 at 2013-01-28 17:09:29 -0200
+Served asset /testing/integration-tests/tests.js - 200 OK (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 17:09:29 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 17:09:30 -0200
+Served asset /app.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 17:09:30 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 17:09:30 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 17:09:30 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 17:09:30 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 17:09:30 -0200
+Served asset /app.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 17:09:30 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 17:09:30 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 17:09:30 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 17:09:31 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 17:09:31 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 17:09:31 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 17:09:31 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 17:09:31 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 17:09:31 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 17:09:32 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 17:09:32 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 17:09:32 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 17:09:32 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 17:09:32 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 17:09:32 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 17:09:32 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 17:09:32 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 17:09:32 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2013-01-28 17:09:33 -0200
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-01-28 17:09:33 -0200
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libraries/angular.js?body=1" for 127.0.0.1 at 2013-01-28 17:09:33 -0200
+Served asset /libraries/angular.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-01-28 17:09:33 -0200
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controllers/phoneListController.js?body=1" for 127.0.0.1 at 2013-01-28 17:09:33 -0200
+Served asset /controllers/phoneListController.js - 304 Not Modified (0ms)

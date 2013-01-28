@@ -4,4 +4,3 @@ function PhoneListController($scope, $http) {
   });
   $scope.orderProp = 'age';
 }
-PhoneListController.$inject = ['$scope', '$http'];

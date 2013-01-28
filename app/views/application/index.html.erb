@@ -1,31 +1,16 @@
-<!DOCTYPE html>
-<html ng-app="phonecat">
+<!doctype html>
+<html lang="en" ng-app="phone-catalog">
   <head>
     <meta charset="utf-8">
-    <title ng-bind-template="Google Phone Gallery: {{query}}"></title>
+    <title>Google Phone Gallery</title>
     <%= stylesheet_link_tag 'app' %>
     <%= stylesheet_link_tag 'bootstrap' %>
     <%= javascript_include_tag 'libraries/angular.js' %>
-    <%= javascript_include_tag 'controllers/phoneListController.js' %>
+    <%= javascript_include_tag 'application' %>
+    <%= javascript_include_tag 'controllers/phone-list' %>
+    <%= javascript_include_tag 'controllers/phone-detail' %>
   </head>
   <body>
-    Search: <input type="text" ng-model="query">
-    Sort:
-    <select ng-model="orderProp">
-      <option value="name">Alphabetical</option>
-      <option value="age">Newest</option>
-    </select>
-    <span id="status">Current filter: {{query}}</span>
-    <ul class="phones">
-      <li ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail">
-        <a href="#/phones/{{phone.id}}" class="thumb">
-          <img ng-src="{{phone.imageUrl}}">
-        </a>
-        <a href="#/phones/{{phone.id}}" class="thumb title">
-          {{phone.name}}
-        </a>
-        <p>{{phone.snippet}}</p>
-      </li>
-    </ul>
+    <div ng-view></div>
   </body>
 </html>
